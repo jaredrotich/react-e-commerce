@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Welcome from "./components/Welcome"
 import './App.css'
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Welcome name="I" title="software engineer"/>
      
       </main>
+      <Footer />
     </div>
   )
 }
