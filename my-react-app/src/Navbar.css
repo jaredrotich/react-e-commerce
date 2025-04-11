@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #364151;
+    padding: 0.5rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    color: white;
+}
+
+.nav-list-item{
+    cursor:pointer;
+}
+
+.nav-list-item:hover{
+    text-decoration: underline;
+}
